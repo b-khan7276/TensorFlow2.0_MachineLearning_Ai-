@@ -39,4 +39,18 @@ Machine learning and Artifical intellegence
     Pandas is data analytics tools, it allows us to manipulate data sets.
 ### Matplotlib:
     Matplotlib is used for visualations for graphs and charts
+    
+ ## Clustering:
+    " Clustering is a machine leaning technique  that involes the grouping of 
+    data points and tell you locations of that data points " 
+      
+### Basic Algorithm for K-Means.
+    -Step 1: Randomly pick K points to place K centroids
+    -Step 2: Assign all the data points to the centroids by distance. The closest centroid to a point is the one it is assigned to.
+    -Step 3: Average all the points belonging to each centroid to find the middle of those clusters (center of mass). 
+             Place the corresponding centroids into that position.
+    -Step 4: Reassign every point once again to the closest centroid.
+    -Step 5: Repeat steps 3-4 until no point changes which centroid it belongs to.
+  ### More details about Clustering
+   [![More details about Clustering](https://img.shields.io/badge/link-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68)
  
